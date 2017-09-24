@@ -88,7 +88,7 @@ After creating the service instance, we can inject it to our list-manager compon
 import { TodoListService } from '../todo-list.service'; 
 ````
 
-And just use it in ListManagerComponent class: Remove the todoList array but keep the todoList member and change the constructor to be:
+And just use it in ListManagerComponent class: Remove the todoList array but keep the todoList property and change the constructor to be:
 ```javascript
 constructor(private todoListService:TodoListService) { }
 ```
